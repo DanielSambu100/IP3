@@ -7,16 +7,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     margin-top: 1px;
 }
 
-.container {
+.main-section {
    background-color: rgba(233, 53, 30, 0.466); 
    border-radius: 6px;
    width: 300px;
    border: 2px black solid;
    text-align: center;
+   max-height: 100vh;
+   float: ;
 }
 
 .button {
